@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:x,mm:K}=window,P=new x.Toolbar;P.attach(K);const F=P.render();F.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(F)})})()</script><script>((b,L,T,D)=>{const H=b();window.mm=H.Markmap.create("svg#mindmap",(L||H.deriveOptions)(D),T)})(()=>window.markmap,null,{"content":"Sistemas de Archivos","children":[{"content":"Definici&#xf3;n","children":[{"content":"M&#xe9;todo de organizaci&#xf3;n y almacenamiento de archivos en dispositivos de almacenamiento.","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"Permite gestionar acceso, modificaci&#xf3;n, eliminaci&#xf3;n y almacenamiento de archivos.","children":[],"payload":{"tag":"li","lines":"3,5"}}],"payload":{"tag":"h2","lines":"1,2"}},{"content":"Componentes Principales","children":[{"content":"<strong>Archivos</strong>: Datos almacenados como documentos, im&#xe1;genes, etc.","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"<strong>Directorios/Carpetas</strong>: Contenedores que organizan archivos, pueden incluir subdirectorios.","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"<strong>Metadatos</strong>: Informaci&#xf3;n adicional sobre los archivos (nombre, fecha, tama&#xf1;o, permisos).","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"<strong>&#xcd;ndice o Tabla de Asignaci&#xf3;n</strong>: Registra la ubicaci&#xf3;n f&#xed;sica de los archivos en el almacenamiento.","children":[],"payload":{"tag":"li","lines":"9,11"}}],"payload":{"tag":"h2","lines":"5,6"}},{"content":"Tipos Comunes","children":[{"content":"<strong>FAT32</strong>:","children":[{"content":"Compatible con muchos dispositivos.","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Limitaci&#xf3;n: tama&#xf1;o m&#xe1;ximo de archivo de 4 GB.","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"12,15"}},{"content":"<strong>NTFS</strong>:","children":[{"content":"Usado en sistemas Windows.","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Soporta archivos grandes, seguridad avanzada, permisos, cifrado.","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"15,18"}},{"content":"<strong>exFAT</strong>:","children":[{"content":"Compatible con Windows y macOS.","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Ideal para dispositivos de almacenamiento grandes (tarjetas SD, unidades flash).","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"18,21"}},{"content":"<strong>ext4</strong>:","children":[{"content":"Popular en Linux.","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Buen rendimiento para grandes vol&#xfa;menes de datos.","children":[],"payload":{"tag":"li","lines":"23,25"}}],"payload":{"tag":"li","lines":"21,25"}}],"payload":{"tag":"h2","lines":"11,12"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
